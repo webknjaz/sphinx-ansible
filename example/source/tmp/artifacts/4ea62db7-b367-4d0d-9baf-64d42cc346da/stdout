@@ -1,0 +1,26 @@
+[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that[0m
+[1;35mthe implicit localhost does not match 'all'[0m
+
+PLAY [localhost] ***************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [localhost][0m
+
+TASK [Prepare test directory] **************************************************
+[0;33mchanged: [localhost][0m
+
+TASK [Write a file] ************************************************************
+[0;33mchanged: [localhost][0m
+
+TASK [ansible_task-1] **********************************************************
+[0;33mchanged: [localhost][0m
+
+TASK [ansible_task-2] **********************************************************
+[0;33mchanged: [localhost][0m
+
+TASK [ansible_task-3] **********************************************************
+[0;33mchanged: [localhost][0m
+
+PLAY RECAP *********************************************************************
+[0;33mlocalhost[0m                  : [0;32mok=6   [0m [0;33mchanged=5   [0m unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
